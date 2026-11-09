@@ -247,6 +247,7 @@ export const CERTIFICATIONS: Certification[] = [
     date: { fr: 'Novembre 2025', en: 'November 2025' },
     image: 'certifications/nvidia-anomaly-detection.jpg',
     pdf: 'certifications/nvidia-anomaly-detection.pdf',
+    verify: 'https://learn.nvidia.com/certificates?id=UKBmwjxlT4Gg5eyNXd8YoA',
   },
   {
     title: 'Hashgraph Developer Course',
