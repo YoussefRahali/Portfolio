@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="fr" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <title>Youssef Rahali — Développeur Full-Stack Java / Angular</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="description" content="Youssef Rahali, ingénieur en génie logiciel (ESPRIT, 2026). Développeur full-stack Java / Spring Boot / Angular, microservices, Docker et Kubernetes. Disponible immédiatement.">
+  <meta name="author" content="Youssef Rahali">
+  <meta name="theme-color" content="#0b0b14">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Youssef Rahali — Développeur Full-Stack Java / Angular">
+  <meta property="og:description" content="Ingénieur en génie logiciel (ESPRIT, 2026). Spring Boot, Angular, microservices, DevOps. Disponible immédiatement.">
+  <meta property="og:image" content="/photo.jpg">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <script>
+    // Applique le thème mémorisé avant l'affichage pour éviter un flash.
+    try { var t = localStorage.getItem('yr-theme'); if (t === 'light' || t === 'dark') document.documentElement.dataset.theme = t; } catch (e) {}
+  </script>
+</head>
+<body>
+  <!-- Formulaire caché : permet à Netlify de détecter le formulaire de contact rendu par Angular. -->
+  <form name="contact" netlify netlify-honeypot="bot-field" hidden>
+    <input name="bot-field"><input name="name"><input name="email"><input name="company"><textarea name="message"></textarea>
+  </form>
+  <app-root></app-root>
+  <noscript>Youssef Rahali — Développeur Full-Stack. Contact : youssef.rahali.ing@gmail.com</noscript>
+</body>
+</html>
